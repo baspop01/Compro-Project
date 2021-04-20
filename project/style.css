@@ -1,0 +1,41 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+#home{
+    height: 50px;
+    width: 100%;
+    background-color:greenyellow;
+    border-color: transparent;
+    font-weight: 700;
+    margin: 0;
+    top: 0;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+}
+a{
+    float: left;
+    font-size: 15px;
+    text-align: center;
+}
+a.home{
+    font-size:  40px;
+}
+a.homepage{
+    position: absolute;
+    margin-left:60%;
+    top:20px;
+    font-size: 1.25em;
+}
+a.about{
+    position: absolute;
+    top:20px;
+    margin-left:65%;
+    font-size: 1.25em;
+}
+.all{
+    position:relative;
+    top:50px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComPro Project</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="Head" id="home">
+    <a href="#home" class="home">Compro Project</a>
+    <a href="#home" class="homepage">Home</a>
+    <a href="#about" class="about">About</a>
+    </div>
+    <div class="all">
+    <div class="data">
+    <h2>เครื่องตรวจจับควัน MQ-2</h2>
+    <p1>โปรเจคนี้จะมาทำการทดลองและอธิบายการทำงานของวงจรเครื่องตรวจจับควัน MQ-2 ซึ่งเอาไว้ตรวจจับของกลุ่มควันและตรวจจับแก๊สได้อีกหลากหลายชนิด</p1>
+    <h3>จุดประสงค์ของโปรเจค</h3>
+    <p1>เพื่อสามารถนำไปประยุกต์ใช้ในการตรวจจับกลุ่มควันที่เกิดจากการเผาไหม้สิ่งต่างๆ ที่สามารถก่อให้เกิดอันตรายต่อสิ่งมีชีวิตและอื่นๆที่ทำให้เกิดความเดือดร้อนได้</p1>
+    </div>
+    <div class="howtowork" id="howtowork">
+        <h3>หลักการทำงานของวงจร</h3>
+        <p1>เมื่อมีกลุ่มควัน ก๊าซ แก๊ส มาโดนบริเวณ Sensor จะมีการส่งสัญญาณ analog ไปยัง Arduino หากมีความหนาแน่นของ ก๊าซ แก๊ส ควัน ก็จะมีค่า analog 
+            ที่สูงขึ้นส่งไปยัง Arduino เมื่อ Arduino รับสัญญาณจาก Sensor หากยังไม่สูงพอ (ตามค่าที่ตั้งไว้) หากต่ำกว่า ค่าที่ตั้งไว้ไฟสีเขียวจะสว่าง ในทางกลับกันหากมีกลุ่มควัน 
+            แก๊ส ก๊าซ มีความหนาขึ้นสูงกว่า ค่าที่ตั้งไว้ ไฟสีแดงจะสว่างเพื่อส่งสัญญาณเตือน</p1>
+    </div>
+    <ul class="equipment">
+        <h3>อุปกรณ์</h3>
+        <li>Arduino Uno R3</li>
+        <li>Sensor MQ-2</li>
+        <li>หลอดไฟ LED สีเขียว แดง</li>
+        <li>ตัวต้านทาน ค่าความต้านทานที่ 220 Ohm</li>
+        <li>Breadboard</li>
+    </ul>
+    <div class="howtouse">
+        <h3>วิธีการต่อบอร์ด</h3>
+    </div>
+    <div class="code">
+        <h3>โปรแกรม Code Arduino</h3>
+    </div>
+    </div>
+</body>
+</html>
