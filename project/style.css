@@ -1,7 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
     font-family: 'Prompt', sans-serif;
+    background-image: linear-gradient(#F4FFFF, #DCAD67);
 }
 
 .mid{
@@ -13,6 +17,8 @@ body {
     height: 50px;
     background: #fff;
     box-shadow: 0 0 10px #999;
+    position: fixed;
+    top:0px;
 }
 
 .logo{
@@ -40,3 +46,76 @@ body {
     border-bottom: 2px solid #333;
     padding-bottom: 0px;
 }
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+img{
+    display:block;
+    margin: auto;
+}
+.members_area1{
+    display:inline;
+    float:left;
+    margin:40px;
+}
+.members_area2{
+    display:inline;
+    float:left;
+    margin:40px;
+}
+
+.members_area3{
+    display:inline;
+    float:left;
+    margin:40px;
+}
+
+.members_area4{
+    display:inline;
+    float:left;
+    margin:40px;
+}
+.image{
+    position:relative;
+    height:70px;
+    width:70px;
+}
+iframe{
+    display:block;
+    margin:auto;
+}
+.header{
+    background-image: url("img/background.jpg");
+    height: 800px;
+    width: 100%;
+}
+.big{
+    font-size:80px;
+    color:white;
+    margin-bottom:10px;
+}
+.medium{
+    font-size:40px;
+    color:white;
+    margin-bottom:100px;
+    
+}
+.blank{
+    position:relative;
+    left:40%;
+    font-size:30px;
+    text-decoration: none;
+    color:white;
+    padding:10px;
+    border:1px solid white;
+    border-radius: 50px;
+    transition: ease-out 0.5s;
+}
+.blank:hover{
+    background-color: white;
+    color:black;
+}
+
