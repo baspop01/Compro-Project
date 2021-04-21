@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ComPro Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="img/icon.png" type="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menubar">
+            <div class="logo">
+                <h1>ComPro Project</h1>
+            </div>
+        <ul class ="menu">
+            <li>
+                <a href="#homepage">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+        </ul>
+    </div>
+    
+    <header class="header" id="homepage">
+        <div class="mid">
+            <br><br>
+            <h1 class="big">Computer Programming Project</h1>
+            <h1 class="medium">-. เครื่องตรวจจับควัน MQ-2 .-</h1>
+            <a class="blank" href="#info" alt="" >เข้าสู่เนื้อหา</a>
+        </div>
+    </header>
+    <section class="info1" id="info">
+        <div class="mid">
+            <div class="info1_area">
+                <div class="info1_text">
+                    <br><br>
+                    <h2>จุดประสงค์ของโปรเจค</h2>
+                    <p>เพื่อทำการทดลองและอธิบายการทำงานของวงจรเครื่องตรวจจับควัน MQ-2 ซึ่งเอาไว้ตรวจจับของกลุ่มควันและตรวจจับแก๊สได้อีกหลากหลายชนิด และสามารถนำไปประยุกต์ใช้ในการตรวจจับกลุ่มควันที่เกิดจากการเผาไหม้สิ่งต่างๆ ที่สามารถก่อให้เกิดอันตรายต่อสิ่งมีชีวิตและอื่นๆที่ทำให้เกิดความเดือดร้อนได้</p>
+                    <h2>หลักการทำงานของวงจร</h2>
+                    <img style="margin-bottom:25px;" src="img/pic1.png" alt="">
+                    <p1>เมื่อมีกลุ่มควัน ก๊าซ แก๊ส มาโดนบริเวณ Sensor จะมีการส่งสัญญาณ analog ไปยัง Arduino หากมีความหนาแน่นของ ก๊าซ แก๊ส ควัน ก็จะมีค่า analog ที่สูงขึ้นส่งไปยัง Arduino เมื่อ Arduino รับสัญญาณจาก Sensor หากยังไม่สูงพอ (ตามค่าที่ตั้งไว้) หากต่ำกว่า ค่าที่ตั้งไว้ไฟสีเขียวจะสว่าง ในทางกลับกันหากมีกลุ่มควัน แก๊ส ก๊าซ มีความหนาขึ้นสูงกว่า ค่าที่ตั้งไว้ ไฟสีแดงจะสว่างเพื่อส่งสัญญาณเตือน</p1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info2">
+        <div class="mid">
+            <div class="info2_area">
+                <div class="info2_text">
+                    <h1>อุปกรณ์</h1>
+                    <li>Arduino Uno R3</li>
+                    <li>Sensor MQ-2</li>
+                    <li>หลอดไฟ LED สีเขียว แดง</li>
+                    <li>ตัวต้านทาน ค่าความต้านทานที่ 220 Ohm</li>
+                    <li>Breadboard</li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info5">
+        <div class="mid">
+            <div class="info5_area">
+                <div class="info5_text">
+                    <h2>โครงสร้างโปรแกรมเครื่องตรวจจับควัน</h2>
+                    <script src="https://gist.github.com/AB-Project/b8527c0a21d278e7d2462362fb5e9e2f.js"></script>
+            </div>
+        </div>
+    </section>
+    <section class="info6">
+        <div class="mid">
+            <div class="info6_area">
+                <div class="info6_text">
+                    <h2>คลิปวิดีโอประกอบโปรเจค</h2>
+                    <iframe width="1020" height="630" src="https://www.youtube.com/embed/RSY-6UkxzkU" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="members" id="about">
+        <h1>Members</h1>
+        <div class="mid">
+            <div class="members_area">
+                <div class="members_area1">
+                    <img class="image" src="img/ตี๋ตัดแล้ว.png" alt="">
+                    <h4>นายบุฒฐไชย์ อารมณ์</h4>
+                    <h4>63070097</h4>
+                </div>
+                <div class="members_area2">
+                    <img class="image" src="img/บาสตัดแล้ว.png" alt="">
+                    <h4>นายพัชรพล ศาศวัตเตชะ</h4>
+                    <h4>63070115</h4>
+                </div>
+                <div class="members_area3">
+                    <img class="image" src="img/ตี๋ตัดแล้ว.png" alt="">
+                    <h4>นายวุฒิพร แจ่มกระจ่าง</h4>
+                    <h4>63070162</h4>
+                </div>
+                <div class="members_area4">
+                    <img class="image" src="img/ตู้ฟู.png" alt="">
+                    <h4>นายอริยพล อูนากูล</h4>
+                    <h4>63070186</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
