@@ -53,6 +53,9 @@ h2{
     text-align: center;
     color:white;
 }
+h4{
+    color:white;
+}
 img{
     display:block;
     margin: auto;
@@ -106,7 +109,7 @@ iframe{
 }
 .blank{
     position:relative;
-    left:40%;
+    left:410px;
     font-size:30px;
     text-decoration: none;
     color:white;
@@ -177,4 +180,10 @@ hr{
 }
 .ex:hover{
     transform: scale(1.05);
+}
+.result{
+    width:400px;
+    height:300px;
+    display:inline;
+    margin-left:50px;
 }

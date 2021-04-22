@@ -20,7 +20,19 @@
                 <a href="#homepage">Home</a>
             </li>
             <li>
-                <a href="#about">About</a>
+                <a href="#purpose">Purpose</a>
+            </li>
+            <li>
+                <a href="#whatcanbeuse">What Can Be Use</a>
+            </li>
+            <li>
+                <a href="#equitment">Equitment</a>
+            </li>
+            <li>
+                <a href="#information">Information</a>
+            </li>
+            <li>
+                <a href="#members">Members</a>
             </li>
         </ul>
     </div>
@@ -30,10 +42,10 @@
             <br><br>
             <h1 class="big">Computer Programming Project</h1>
             <h1 class="medium">-. เครื่องตรวจจับควัน MQ-2 .-</h1>
-            <a class="blank" href="#info" alt="" >เข้าสู่เนื้อหา</a>
+            <a class="blank" href="#purpose" alt="" >เข้าสู่เนื้อหา</a>
         </div>
     </header>
-    <section class="info1" id="info">
+    <section class="info1" id="purpose">
         <div class="mid">
             <div class="info1_area">
                 <div class="info1_text">
@@ -45,11 +57,12 @@
             </div>
         </div>
     </section>
-    <section class="info2">
+    <section class="info2" id="whatcanbeuse">
         <div class="mid">
             <div class="info2_area">
                 <div class="info2_text">
                     <hr>
+                    <br><br>
                     <h2>What can be used for???</h2>
                     <div class="ex">
                         <img style="width: 180px; height: 180px;" src="img/alarm.png" alt="">
@@ -70,11 +83,12 @@
             </div>
         </div>
     </section>
-    <section class="info3">
+    <section class="info3" id="equitment">
         <div class="mid">
             <div class="info3_area">
                 <div class="info3_text">
                     <hr>
+                    <br><br>
                     <h2>Equitment</h2>
                     <li>Arduino Uno R3</li>
                     <li>Sensor MQ-2</li>
@@ -92,16 +106,21 @@
             </div>
         </div>
     </section>
-    <section class="info4">
+    <section class="info4" id="information">
         <div class="mid">
             <div class="info4_area">
                 <div class="info4_text">
                     <hr>
+                    <br><br>
                     <h2>ตัวอย่างและการทำงานของวงจร</h2>
                     <img style="width:650px; height:400px; margin-bottom:25px;" src="img/board.jpg" alt="">
                     <p>เมื่อมีกลุ่มควัน ก๊าซ แก๊ส มาโดนบริเวณ Sensor MQ2 จะมีการส่งสัญญาณ analog ไปยัง Arduino และเมื่อความหนาแน่นของ ก๊าซ แก๊ส ควัน เข้าสู่ sensor ก็จะทำให้ค่า analog 
                         สูงขึ้นแล้วส่งเก็บไว้ไปยัง Arduino หากค่าที่รับมีค่าต่ำกว่าที่ตั้งไว้ (ตัวอย่างมีค่าความหนาแน่นที่ 400) ไฟสีเขียวจะสว่างเตือนว่าปลอดภัยยังไม่เกินค่าที่ตั้งไว้ 
                         และในทางกลับกันหากมีกลุ่มควัน แก๊ส ก๊าซ มีความหนาขึ้นสูงกว่า ค่าที่ตั้งไว้ ไฟสีแดงจะสว่างเพื่อเตือนว่าแก๊สหรือกลุ่มควันที่ตรวจได้นั้นอันตรายแล้วนะ</p>
+                    <img class="result" src="img/ไม่ติด.jpg" alt="">
+                    <img class="result" src="img/ติด.jpg" alt="">
+                    <p>รูปขวา : ไม่มีการปล่อยแก๊สไปยังที่ตัว sensor MQ2 เลยยังทำให้หลอดไฟ LED สีเขียวสว่างอยู่</p>
+                    <p>รูปซ้าย : มีการปล่อยแก๊สเชื้อเพลิงออกจากไฟแช็กไปยังที่ตัว sensor MQ2 ซึ่งทำให้รับค่าความหนาแน่นของแก๊สที่ปล่อยที่มีค่าสูงกว่าที่ตั้งไว้ เลยทำให้หลอดไฟ LED สีแดงสว่างแทน</p>
                 </div>
             </div>
         </div>
@@ -129,11 +148,11 @@
             </div>
         </div>
     </section>
-    <section class="members" id="about">
+    <section class="members" id="members">
         <div class="mid">
             <div class="members_area">
                 <hr>
-                <h1>Members</h1>
+                <h2>Members</h2>
                 <div class="members_area1">
                     <img class="image" src="img/ตี๋ตัดแล้ว.png" alt="">
                     <h4>นายบุฒฐไชย์ อารมณ์</h4>
