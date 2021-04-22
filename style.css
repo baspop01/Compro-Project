@@ -5,12 +5,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Prompt', sans-serif;
-    background-image: linear-gradient(#F4FFFF, #DCAD67);
+    background-image: linear-gradient(#da99b5, #8d6798);
 }
-
 .mid{
     width: 960px;
-    margin: 0 auto;
+    margin:auto;
 }
 .menubar{
     width: 100%;
@@ -48,9 +47,11 @@ body {
 }
 h1{
     text-align: center;
+    color:black;
 }
 h2{
     text-align: center;
+    color:white;
 }
 img{
     display:block;
@@ -118,4 +119,62 @@ iframe{
     background-color: white;
     color:black;
 }
-
+p{
+    text-align: center;
+    color:white;
+}
+.fire{
+    width:200px;
+    height:200px;
+    padding-bottom: 25px;
+}
+.fire:hover{
+    animation: fire 2s infinite; 
+}
+@keyframes fire{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(20px);
+    }
+    75%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+li{
+    color:white;
+}
+hr{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+.equit{
+    display:inline;
+    margin-top:25px;
+    margin-left:2.5px;
+    margin-bottom:25px;
+    height:150px;
+    width:150px;
+    border-radius: 100px;
+}
+.equit:hover{
+    border: 1px solid black;
+    transform: scale(1.75);
+}
+.ex{
+    width:300px;
+    padding:10px;
+    margin:auto;
+    margin-bottom: 25px;
+    border: 5px solid #8d6798;
+    border-radius: 50px;
+    background-color: #8d6798;
+}
+.ex:hover{
+    transform: scale(1.05);
+}
