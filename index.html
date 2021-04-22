@@ -38,26 +38,70 @@
             <div class="info1_area">
                 <div class="info1_text">
                     <br><br>
-                    <h2>จุดประสงค์ของโปรเจค</h2>
+                    <h2>PURPOSE</h2>
                     <p>เพื่อทำการทดลองและอธิบายการทำงานของวงจรเครื่องตรวจจับควัน MQ-2 ซึ่งเอาไว้ตรวจจับของกลุ่มควันและตรวจจับแก๊สได้อีกหลากหลายชนิด และสามารถนำไปประยุกต์ใช้ในการตรวจจับกลุ่มควันที่เกิดจากการเผาไหม้สิ่งต่างๆ ที่สามารถก่อให้เกิดอันตรายต่อสิ่งมีชีวิตและอื่นๆที่ทำให้เกิดความเดือดร้อนได้</p>
-                    <h2>หลักการทำงานของวงจร</h2>
-                    <img style="margin-bottom:25px;" src="img/pic1.png" alt="">
-                    <p1>เมื่อมีกลุ่มควัน ก๊าซ แก๊ส มาโดนบริเวณ Sensor จะมีการส่งสัญญาณ analog ไปยัง Arduino หากมีความหนาแน่นของ ก๊าซ แก๊ส ควัน ก็จะมีค่า analog ที่สูงขึ้นส่งไปยัง Arduino เมื่อ Arduino รับสัญญาณจาก Sensor หากยังไม่สูงพอ (ตามค่าที่ตั้งไว้) หากต่ำกว่า ค่าที่ตั้งไว้ไฟสีเขียวจะสว่าง ในทางกลับกันหากมีกลุ่มควัน แก๊ส ก๊าซ มีความหนาขึ้นสูงกว่า ค่าที่ตั้งไว้ ไฟสีแดงจะสว่างเพื่อส่งสัญญาณเตือน</p1>
+                    <img class="fire" src="img/fire.png" alt="">
                 </div>
             </div>
         </div>
     </section>
-
     <section class="info2">
         <div class="mid">
             <div class="info2_area">
                 <div class="info2_text">
-                    <h1>อุปกรณ์</h1>
+                    <hr>
+                    <h2>What can be used for???</h2>
+                    <div class="ex">
+                        <img style="width: 180px; height: 180px;" src="img/alarm.png" alt="">
+                        <h2>Fire Alarm</h2>
+                        <p>แจ้งเตือนเมื่อสามารถจับกลุ่มควันในระดับความหนาของควัณที่เกิดอันตรายได้</p>
+                    </div>
+                    <div class="ex">
+                        <img style="width: 180px; height: 180px;" src="img/gas.png" alt="">
+                        <h2>Gas Leak</h2>
+                        <p>ป้องกันการรั่วไหลของถึงแก๊สที่บรรจุแก๊สชนิดจำพวก LPG Methane ที่สามารถก่อให้เกิดประกายไฟได้</p>
+                    </div>
+                    <div class="ex">
+                        <img style="width: 180px; height: 180px;" src="img/life.png" alt="">
+                        <h2>Other</h2>
+                        <p>และสิ่งอื่นๆอีกมากมายที่สำคัญต่อการยับยั้งสิ่งที่ก่อให้เกิดอันตรายกับชีวิตและทรัพสินย์ เช่น การวัดระดับปริมาณแอลกอฮอล์ในร่างกาย เป็นต้น</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info3">
+        <div class="mid">
+            <div class="info3_area">
+                <div class="info3_text">
+                    <hr>
+                    <h2>Equitment</h2>
                     <li>Arduino Uno R3</li>
                     <li>Sensor MQ-2</li>
                     <li>หลอดไฟ LED สีเขียว แดง</li>
                     <li>ตัวต้านทาน ค่าความต้านทานที่ 220 Ohm</li>
                     <li>Breadboard</li>
+                    <li>ไฟแช็ก (เอาไว้สำหรับทดลอง)</li>
+                    <img class="equit" src="img/Arduino Uno R3.jpg" alt="">
+                    <img class="equit" src="img/mq2.jpg" alt="">
+                    <img class="equit" src="img/หลอดไฟ LED สีเขียว แดง.jpg" alt="">
+                    <img class="equit" src="img/ตัวต้านทาน.png" alt="">
+                    <img class="equit" src="img/Breadboard.jpg" alt="">
+                    <img class="equit" src="img/ไฟแช็ก.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info4">
+        <div class="mid">
+            <div class="info4_area">
+                <div class="info4_text">
+                    <hr>
+                    <h2>ตัวอย่างและการทำงานของวงจร</h2>
+                    <img style="width:650px; height:400px; margin-bottom:25px;" src="img/board.jpg" alt="">
+                    <p>เมื่อมีกลุ่มควัน ก๊าซ แก๊ส มาโดนบริเวณ Sensor MQ2 จะมีการส่งสัญญาณ analog ไปยัง Arduino และเมื่อความหนาแน่นของ ก๊าซ แก๊ส ควัน เข้าสู่ sensor ก็จะทำให้ค่า analog 
+                        สูงขึ้นแล้วส่งเก็บไว้ไปยัง Arduino หากค่าที่รับมีค่าต่ำกว่าที่ตั้งไว้ (ตัวอย่างมีค่าความหนาแน่นที่ 400) ไฟสีเขียวจะสว่างเตือนว่าปลอดภัยยังไม่เกินค่าที่ตั้งไว้ 
+                        และในทางกลับกันหากมีกลุ่มควัน แก๊ส ก๊าซ มีความหนาขึ้นสูงกว่า ค่าที่ตั้งไว้ ไฟสีแดงจะสว่างเพื่อเตือนว่าแก๊สหรือกลุ่มควันที่ตรวจได้นั้นอันตรายแล้วนะ</p>
                 </div>
             </div>
         </div>
@@ -66,6 +110,7 @@
         <div class="mid">
             <div class="info5_area">
                 <div class="info5_text">
+                    <hr>
                     <h2>โครงสร้างโปรแกรมเครื่องตรวจจับควัน</h2>
                     <script src="https://gist.github.com/AB-Project/b8527c0a21d278e7d2462362fb5e9e2f.js"></script>
             </div>
@@ -75,6 +120,7 @@
         <div class="mid">
             <div class="info6_area">
                 <div class="info6_text">
+                    <hr>
                     <h2>คลิปวิดีโอประกอบโปรเจค</h2>
                     <iframe width="1020" height="630" src="https://www.youtube.com/embed/RSY-6UkxzkU" 
                     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
@@ -84,9 +130,10 @@
         </div>
     </section>
     <section class="members" id="about">
-        <h1>Members</h1>
         <div class="mid">
             <div class="members_area">
+                <hr>
+                <h1>Members</h1>
                 <div class="members_area1">
                     <img class="image" src="img/ตี๋ตัดแล้ว.png" alt="">
                     <h4>นายบุฒฐไชย์ อารมณ์</h4>
