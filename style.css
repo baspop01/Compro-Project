@@ -19,6 +19,14 @@ body {
     position: fixed;
     top:0px;
 }
+.menubar2{
+    width: 100%;
+    height: 20px;
+    background: #da99b5;
+    box-shadow: 0 0 10px #999;
+    position: relative;
+    top:350px;
+}
 
 .logo{
     margin-top: -20px;
@@ -63,29 +71,81 @@ img{
 .members_area1{
     display:inline;
     float:left;
-    margin:40px;
+    margin:15px;
+    border:5px solid #da99b5;
+    background-color: #da99b5;
+    border-style: outset;
+    width:200px;
+    height:300px;
+    margin-bottom: 25px;
+}
+.members_area1:hover .image{
+    opacity: 0.1;
+}
+.members_area1:hover .hidden{
+    opacity: 1;
 }
 .members_area2{
     display:inline;
     float:left;
-    margin:40px;
+    margin:15px;
+    border:5px solid #da99b5;
+    background-color: #da99b5;
+    border-style: outset;
+    width:200px;
+    height:300px;
+    margin-bottom: 25px;
+}
+.members_area2:hover .image{
+    opacity: 0.1;
+}
+.members_area2:hover .hidden{
+    opacity: 1;
 }
 
 .members_area3{
     display:inline;
     float:left;
-    margin:40px;
+    margin:15px;
+    border:5px solid #da99b5;
+    background-color: #da99b5;
+    border-style: outset;
+    width:200px;
+    height:300px;
+    margin-bottom: 25px;
+}
+.members_area3:hover .image{
+    opacity: 0.1;
+}
+.members_area3:hover .hidden{
+    opacity: 1;
 }
 
 .members_area4{
     display:inline;
     float:left;
-    margin:40px;
+    margin:15px;
+    border:5px solid #da99b5;
+    background-color: #da99b5;
+    border-style: outset;
+    width:200px;
+    height:300px;
+    margin-bottom: 25px;
+}
+.members_area4:hover .image{
+    opacity: 0.1;
+}
+.members_area4:hover .hidden{
+    opacity: 1;
 }
 .image{
     position:relative;
-    height:70px;
-    width:70px;
+    height:180px;
+    width:180px;
+    margin:5px;
+    border-radius: 50px;
+    transition: .5s ease;
+    
 }
 iframe{
     display:block;
@@ -186,4 +246,29 @@ hr{
     height:300px;
     display:inline;
     margin-left:50px;
+}
+.hidden{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+}
+.github{
+    width:150px;
+    height:150px;
+    border-radius: 100%;
+    transition: .5s ease;
+}
+.github:hover{
+    background-color:#da99b5;
+    transition: .5s ease;
+    border-radius: 100%;
+}
+.linkgit{
+    width:150px;
+    height:150px;
+    margin:auto;
+
+}
+.linkcredit{
+    position: absolute;
 }
